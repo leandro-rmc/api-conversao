@@ -3,9 +3,13 @@ Criação do Dockerfile e .dockerignore. Aplicação do NodeJS **não** foi dese
 
 ## Passos relacionados ao Docker:
 
-No diretório da aplicação, use o comando:
+No diretório da aplicação, use o seguinte comando para construir a imagem:
 ```
 docker build -t leandromusser/api-conversao:v1 .
+```
+A imagem também pode ser obtida pelo repositório no Docker Hub (https://hub.docker.com/r/leandromusser/api-conversao). Nesse caso, usar o seguinte comando ao invés do de cima:
+```
+docker pull leandromusser/api-conversao:v1
 ```
 Depois instancie o container com:
 ```
