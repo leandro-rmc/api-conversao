@@ -1,5 +1,5 @@
 # Kubernetes Bootcamp 2.0
-Criação do Dockerfile e .dockerignore. Aplicação do NodeJS **não** foi desenvolvida por mim.
+Criação de arquivos relacionados ao Docker e Kubernetes. A aplicação do NodeJS **não** foi desenvolvida por mim.
 
 ## Passos relacionados ao Docker:
 
