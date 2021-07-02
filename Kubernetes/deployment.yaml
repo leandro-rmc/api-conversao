@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: meudeployment
+spec:
+    replicas: 10
+    selector:
+        matchLabels:
+            app: apiconversao
+    template:
+        metadata:
+            labels:
+                app: apiconversao
+        spec:
+            containers:
+              - name: site
+                image: leandromusser/api-conversao:v1
+                ports:
+                - containerPort: 8080
