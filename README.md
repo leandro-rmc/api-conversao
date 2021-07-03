@@ -1,5 +1,6 @@
 # Kubernetes Bootcamp 2.0
-Criação de arquivos relacionados ao Docker e Kubernetes. A aplicação do NodeJS **não** foi desenvolvida por mim.
+Criação de arquivos relacionados ao Docker e Kubernetes. 
+A aplicação do NodeJS **não** foi desenvolvida por mim. Este repositório trata-se apenas de um passo a passo seguido, apenas o começo de uma longa jornada.
 
 ## Passos relacionados ao Docker:
 
